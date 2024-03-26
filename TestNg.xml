@@ -1,0 +1,14 @@
+<suite name="Regession">
+<listeners>
+<listener class-name="regression.ListenerClass" />
+</listeners>
+<test name="Sanity">
+<classes>
+  <class name="regression.RegressionTesting">
+   <methods>
+    <include name="handleframes" />
+   </methods>
+  </class>
+ </classes>
+</test>
+</suite>
